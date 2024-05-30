@@ -23,9 +23,11 @@ const BannerContainer = styled.div<{ left: number; imagePath: string }>`
   ${({ left, imagePath }) =>
     imagePath
       ? css`
-          background-image: url(${imagePath});
-          background-size: 400% 100%;
-          background-position: -${(left / 25) * 100}% 0;
+          @media screen and (max-width: ${theme.breakpoints.large}) {
+            background-image: url(${imagePath});
+            background-size: 400% 100%;
+            background-position: -${(left / 25) * 100}% 0;
+          }
         `
       : ``}
 `;

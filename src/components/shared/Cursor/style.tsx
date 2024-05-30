@@ -8,10 +8,10 @@ export const CursorBase = styled.div`
   pointer-events: none;
   transform: translate3d(0, 0, 0);
   position: fixed;
-  display: none;
+  opacity: 0;
 
-  @media screen and (min-width: ${theme.breakpoints.large} && hover: none) {
-    display: block;
+  @media screen and (min-width: ${theme.breakpoints.large}) {
+    opacity: 1;
   }
 `;
 
@@ -24,8 +24,14 @@ export const MainCursor = styled(CursorBase)`
 export const MainCursorBackground = styled.div`
   width: 16px;
   height: 16px;
-  background: white;
+  background: ${theme.colors.secondary};
   border-radius: 50%;
+
+  opacity: 0;
+
+  @media screen and (min-width: ${theme.breakpoints.large}) {
+    opacity: 1;
+  }
 `;
 
 export const SecondaryCursor = styled(CursorBase)`
