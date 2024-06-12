@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* old browsers */
+  height: 100dvh; /* new browsers */
 
   display: flex;
   align-items: center;

@@ -12,7 +12,8 @@ export const AboutMeContainer = styled.div`
   padding: 48px 0;
 
   @media screen and (min-width: ${theme.breakpoints.large}) {
-    height: 100vh;
+    height: 100vh; /* old browsers */
+    height: 100dvh; /* new browsers */
     padding: 48px 0;
   }
 `;

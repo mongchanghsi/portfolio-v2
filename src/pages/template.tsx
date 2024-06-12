@@ -11,13 +11,14 @@ import {
   getRandomBackSplashPath,
 } from "@/components/shared/Animation/Page/MultiBanners";
 
-const BannerContainer = styled.div<{ left: number; imagePath: string }>`
+const BannerContainer = styled.div<{ left: number; imagePath?: string }>`
   position: fixed;
   top: 0;
   left: ${({ left }) => (left ? `${left}vw` : `0px`)};
   width: 25vw;
   z-index: 10;
-  min-height: 100vh;
+  min-height: 100vh; /* old browsers */
+  min-height: 100dvh; /* new browsers */
   background: ${theme.colors.base2};
 
   ${({ left, imagePath }) =>
@@ -44,8 +45,9 @@ const Template = ({ children }: { children: ReactNode }) => {
       {Banners.map((_banner) => (
         <BannerContainer
           id={_banner.id}
+          key={_banner.id}
           left={_banner.position * 25}
-          imagePath={backsplashPath}
+          // imagePath={backsplashPath}
         />
       ))}
       {children}

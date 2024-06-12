@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     max-width: 100vw;
     min-height: 100vh;
+    min-height: 100dvh;
     overflow-x: hidden;
     overscroll-behavior: none;
 

@@ -11,7 +11,7 @@ const LandingView = () => {
       <GenericContent>
         <Hero />
         <AboutMe />
-        <Experience />
+        {/* <Experience /> */}
         <Footer />
       </GenericContent>
     </GenericContainer>

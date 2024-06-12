@@ -9,7 +9,8 @@ export const HomeContainer = styled.div`
   justify-content: center;
 
   gap: 18px;
-  height: 100vh;
+  height: 100vh; /* old browsers */
+  height: 100dvh; /* new browsers */
 `;
 
 export const HomeTitle = styled.h1`

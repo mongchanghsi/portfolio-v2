@@ -17,7 +17,8 @@ export const ExperienceContent = styled.div`
 
 export const ExperienceSection = styled.section`
   width: 100vw;
-  height: 100vh;
+  height: 100vh; /* old browsers */
+  height: 100dvh; /* new browsers */
   padding: calc(80px + 48px) 24px;
   display: flex;
   flex-direction: column;

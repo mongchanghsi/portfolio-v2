@@ -17,7 +17,8 @@ export const LayoutContainer = styled.div`
 export const LayoutContent = styled.div`
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100vh; /* old browsers */
+  min-height: 100dvh; /* new browsers */
 
   overflow-y: auto;
   overflow-x: hidden;

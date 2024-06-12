@@ -5,7 +5,8 @@ export const ModalOverlay = styled.div`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100vh; /* old browsers */
+  height: 100dvh; /* new browsers */
 
   z-index: 900;
   opacity: 0.5;

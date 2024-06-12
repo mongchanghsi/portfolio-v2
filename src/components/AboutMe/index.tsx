@@ -31,7 +31,7 @@ const AboutMe = () => {
 
   const { windowDimensions, LARGE_SCREEN_SIZE } = useWindowDimensions();
 
-  const animationDuration = (isMobile: boolean = true) => (isMobile ? 0.5 : 1);
+  const animationDuration = (isMobile: boolean = true) => (isMobile ? 0.2 : 1);
 
   const baseTweenStyle = {
     opacity: 0.7,
