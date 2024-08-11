@@ -34,6 +34,6 @@ export const SocialData: { [key: string]: ISocial } = {
     id: "cv",
     image: CVIcon,
     label: "Curriculum Vitae",
-    url: "https://docs.google.com/document/d/1dgawefCK8vS6VrS1vzaB2REBj9hw7Sfn/edit?usp=sharing&ouid=118077442025033639167&rtpof=true&sd=true",
+    url: "https://docs.google.com/document/d/1MkuUysCMzyu29fFmYEqqzyrmsi0ib2pV/edit?usp=sharing&ouid=118077442025033639167&rtpof=true&sd=true",
   },
 };
