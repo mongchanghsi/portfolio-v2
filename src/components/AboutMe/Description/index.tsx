@@ -9,12 +9,12 @@ const Description = ({}, ref: ReferencePointer) => {
       <GridContent>
         <GridTitle>About me</GridTitle>
         <DescriptionText>
-          I am currently employed as a Software Development Engineer at DBS
-          Bank, where I am in the Risk Platform team. In addition to my
-          professional responsibilities, I am deeply engaged in expanding my
-          knowledge of Blockchain technology and frequently participate in
-          various Hackathons. Outside of work, I'm just a degen following meme
-          coins.
+          Currently with DBS Bank as a Software Developer, focusing on enhancing
+          end-to-end experiences for Relationship Managers to process loans and
+          follow-up procedures for our customers. Additionally, I am deeply
+          engaged in expanding my knowledge of Blockchain technology and
+          frequently participate in various Hackathons. Outside of work, I'm
+          just a degen following meme coins.
         </DescriptionText>
       </GridContent>
     </BaseGridStyle>
