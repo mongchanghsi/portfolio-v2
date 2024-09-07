@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import Image from "next/image";
 import { DevAnimationContainer } from "./style";
-import DevGIF from "@/assets/images/pudgy_penguin_tech.gif";
+import DeveloperBackdrop from "@/assets/images/developer.jpg";
 import { ReferencePointer } from "@/utils/type";
 
 const DevAnimation = ({}, ref: ReferencePointer) => {
@@ -13,7 +13,7 @@ const DevAnimation = ({}, ref: ReferencePointer) => {
         controls={false}
         loop={true}
       /> */}
-      <Image src={DevGIF} alt="pudgy_penguin" fill />
+      <Image src={DeveloperBackdrop} alt="pudgy_penguin" fill />
     </DevAnimationContainer>
   );
 };
