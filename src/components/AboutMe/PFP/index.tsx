@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { OneGridStyle } from "../util";
-import PfpImage from "@/assets/images/pfp.png";
+import PfpImage from "@/assets/images/justastick.png";
 import { forwardRef } from "react";
 import { ReferencePointer } from "@/utils/type";
 
