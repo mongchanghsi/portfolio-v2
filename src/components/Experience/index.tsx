@@ -21,7 +21,7 @@ import useTransitionLink from "@/hooks/common/useTransitionLink";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// https://www.youtube.com/watch?v=VvSVw1yLAPM
+// Inspired from https://www.youtube.com/watch?v=VvSVw1yLAPM
 const Experience = () => {
   const { handleRedirect } = useTransitionLink();
 
