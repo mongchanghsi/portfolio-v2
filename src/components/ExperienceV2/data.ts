@@ -11,18 +11,18 @@ export const ExperienceData: IExperience[] = [
     role: "Software Engineer",
     duration: "Jul 2021 - Present",
     description: [
-      "Developed One Risk Workbench, a unified platform for Credit, Market, Operational Risks and Model Analytics, centralizing workflows, dashboards to streamline processes and enhance productivity with personalized, role-based workbenches",
-      "Created and managed One Design System, a UI library which is consumed by over 10 projects across the Risk teams",
-      "Developed and optimized straight-through processing (STP) workflows across multiple systems, enhancing credit processing efficiency and reducing manual interventions",
-      "Collaborated cross-functionally with product managers, designers, and engineers to deliver innovative digital experiences in agile (2-week) sprints",
+      "Developed One Risk Workbench, a unifi ed platform for Credit, Market, Operational Risks and Model Analytics — streamlining workfl ows across domains via a personalized, role-based dashboards",
+      "Created and managed One Design System, a UI components library which is consumed by 10+ projects across the Risk teams, reducing UI development time by 50% and standardizing UX across teams",
+      "Developed and optimized straight-through processing (STP) workfl ows across multiple systems, enhancing credit processing effi ciency and reducing manual interventions by 60%",
+      "Collaborated with PMs, designers, and engineers to ship cross-functional features in agile 2-week sprints",
     ],
   },
   {
     company: "GEN3 Studios",
     role: "Freelance Engineer",
-    duration: "Jul 2021 - Present",
+    duration: "Oct 2021 - Nov 2024",
     description: [
-      "Built, styled, and shipped over 10 high-quality decentralized applications for a diverse array of clients",
+      "Built and shipped decentralized applications (dApps) for multiple clients, focused on scalability, design systems, and user experience",
       "Developed features such as ERC20/ERC721/ERC1155 Minting, Marketplace, NFT Gallery, Staking and others, deployed on Ethereum, Polygon, Cronos, Base, Taiko and Aptos network",
     ],
   },
@@ -31,9 +31,8 @@ export const ExperienceData: IExperience[] = [
     role: "Developer Relations Intern",
     duration: "Mar 2021 - May 2021",
     description: [
-      "Developed open-source use-cases of Verifiable Credentials using Affinidi's API/SDK",
-      "Developed internal issuance and public verification portal of Verifiable Credential Participation Certificate and Awards for Affinidi’s PoCathon 2021 participants",
-      "Actively engaging the community as Technical Support for Affinidi's API/SK",
+      "Developed open-source use-cases of Verifi able Credentials using Affinidi’s API/SDK",
+      "Developed issuance and public verifi cation portal of Verifi able Credential Participation Certifi cate and Awards for Affi nidi’s PoCathon 2021 participants",
     ],
   },
   {
@@ -41,7 +40,7 @@ export const ExperienceData: IExperience[] = [
     role: "Software Engineer Intern",
     duration: "Aug 2020 - Dec 2020",
     description: [
-      "Created and managed UI library and Role-based Access Control system for CORENET X",
+      "Implemented UI component library and Role-Based Access Control (RBAC) system for CORENET X platform",
     ],
   },
 ];
