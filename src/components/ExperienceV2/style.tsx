@@ -6,6 +6,9 @@ export const ExperienceWrapper = styled.div`
   height: 100%;
 
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+
   align-items: center;
   justify-content: center;
 
@@ -159,4 +162,15 @@ export const ExperienceContentDescription = styled.div`
 export const ExperienceContentDescriptionItem = styled.p`
   color: ${theme.colors.primary};
   font-size: 14px;
+`;
+
+export const ExperienceTitle = styled.p`
+  position: relative;
+  width: 70%;
+  max-width: 800px;
+  padding-left: 18px;
+  text-align: flex-start;
+  font-size: 24px;
+  font-weight: 700;
+  color: ${theme.colors.primary};
 `;

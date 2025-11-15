@@ -1,6 +1,11 @@
 const environment = {
   PORTAL_API_KEY: process.env.NEXT_PUBLIC_PORTAL_API_KEY || "",
   MIN_CRYPTO_API_KEY: process.env.NEXT_PUBLIC_MIN_CRYPTO_API_KEY || "",
+  CONTENTFUL_SPACE_ID: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID || "",
+  CONTENTFUL_ENV_ID: process.env.NEXT_PUBLIC_CONTENTFUL_ENV_ID || "master",
+  CONTENTFUL_CDA_TOKEN: process.env.NEXT_PUBLIC_CONTENTFUL_CDA_TOKEN || "",
+  CONTENTFUL_PREVIEW_TOKEN:
+    process.env.NEXT_PUBLIC_CONTENTFUL_PREVIEW_TOKEN || "",
 };
 
 export default environment;

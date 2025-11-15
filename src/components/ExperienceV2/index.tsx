@@ -11,6 +11,7 @@ import {
   ExperienceSelection,
   ExperienceSelectionItem,
   ExperienceContentDescriptionItem,
+  ExperienceTitle,
 } from "./style";
 
 const Experience = () => {
@@ -18,6 +19,7 @@ const Experience = () => {
 
   return (
     <ExperienceWrapper>
+      <ExperienceTitle>Experiences</ExperienceTitle>
       <ExperienceContainer>
         <ExperienceSelection>
           {ExperienceData.map((experience) => (

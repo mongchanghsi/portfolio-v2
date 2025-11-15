@@ -30,6 +30,7 @@ export const ErrorHeader = styled.h2`
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5px;
+  color: ${theme.colors.primary};
 `;
 
 export const ErrorText = styled.p`
@@ -40,4 +41,5 @@ export const ErrorText = styled.p`
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
+  color: ${theme.colors.primary};
 `;

@@ -1,9 +1,9 @@
 import { GenericContainer, GenericContent } from "../GenericLayout";
 import Hero from "@/components/Hero";
-import Featured from "@/components/Featured";
 import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/shared/Footer";
 import Experience from "@/components/ExperienceV2";
+import BlogListPreview from "@/components/Blog/BlogListPreview";
 
 const LandingView = () => {
   return (
@@ -12,6 +12,7 @@ const LandingView = () => {
         <Hero />
         <AboutMe />
         <Experience />
+        <BlogListPreview />
         <Footer />
       </GenericContent>
     </GenericContainer>

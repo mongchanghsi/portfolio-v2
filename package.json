@@ -20,6 +20,7 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
     "gsap": "^3.12.5",
+    "marked": "^17.0.0",
     "moment": "^2.29.4",
     "next": "13.4.19",
     "prettier": "^2.8.8",
