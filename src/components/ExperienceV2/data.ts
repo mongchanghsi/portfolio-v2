@@ -11,10 +11,11 @@ export const ExperienceData: IExperience[] = [
     role: "Software Engineer",
     duration: "Jul 2021 - Present",
     description: [
-      "Developed One Risk Workbench, a unifi ed platform for Credit, Market, Operational Risks and Model Analytics — streamlining workfl ows across domains via a personalized, role-based dashboards",
-      "Created and managed One Design System, a UI components library which is consumed by 10+ projects across the Risk teams, reducing UI development time by 50% and standardizing UX across teams",
-      "Developed and optimized straight-through processing (STP) workfl ows across multiple systems, enhancing credit processing effi ciency and reducing manual interventions by 60%",
-      "Collaborated with PMs, designers, and engineers to ship cross-functional features in agile 2-week sprints",
+      "Spearheaded development of One Risk Workbench, a unified risk platform for Credit, Market, and Operational Risks, enabling scalable, multi-domain workflows and role-based dashboards used by 500+ internal users and growing",
+      "Created and maintained One Design System, a reusable UI component library adopted by 10+ teams, reducing UI dev time by 50% and enforcing consistent UX standards across Risk domains",
+      "Designed and implemented straight-through processing (STP) workflows that cut manual intervention by 60%, ensuring reliability through unit and integration tests and observability with custom metrics",
+      "Collaborated in Agile sprints with PMs, designers, and engineers to deliver full-stack features; translated business requirements into scalable, testable code using Web Components and SpringBoot",
+      "Proposed and implemented technical debt reduction initiatives that improved CI/CD effi ciency and deployment stability",
     ],
   },
   {
@@ -22,8 +23,9 @@ export const ExperienceData: IExperience[] = [
     role: "Freelance Engineer",
     duration: "Oct 2021 - Nov 2024",
     description: [
-      "Built and shipped decentralized applications (dApps) for multiple clients, focused on scalability, design systems, and user experience",
-      "Developed features such as ERC20/ERC721/ERC1155 Minting, Marketplace, NFT Gallery, Staking and others, deployed on Ethereum, Polygon, Cronos, Base, Taiko and Aptos network",
+      "Built and deployed multi-chain dApps (Ethereum, Polygon, Cronos, Base, Taiko, Aptos) with scalable architecture and reusable design systems",
+      "Delivered end-to-end features such as ERC20/721/1155 Minting, Marketplaces, NFT Staking, Gallery Dashboards and others with strong UX, API and Smart Contract integration",
+      "Optimized Web3 data fetching with React Query, GraphQL, and TypeScript, ensuring resilient and performant UI rendering",
     ],
   },
   {
@@ -31,8 +33,8 @@ export const ExperienceData: IExperience[] = [
     role: "Developer Relations Intern",
     duration: "Mar 2021 - May 2021",
     description: [
-      "Developed open-source use-cases of Verifi able Credentials using Affinidi’s API/SDK",
-      "Developed issuance and public verifi cation portal of Verifi able Credential Participation Certifi cate and Awards for Affi nidi’s PoCathon 2021 participants",
+      "Built open-source Verifi able Credential solutions using Affi nidi’s API/SDK (3 public GitHub projects)",
+      "Delivered web portals for issuance and public verifi cation of digital credentials, adopted for PoCathon 2021, showcasing scalable and privacy-preserving design",
     ],
   },
   {
