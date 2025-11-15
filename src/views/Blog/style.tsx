@@ -64,3 +64,13 @@ export const BlogPostBody = styled.div`
     font-style: italic;
   }
 `;
+
+export const BlogPostAuthor = styled.p`
+  color: ${theme.colors.primary};
+  opacity: 80%;
+  font-size: 8px;
+
+  @media screen and (min-width: ${theme.breakpoints.large}) {
+    font-size: 12px;
+  }
+`;
