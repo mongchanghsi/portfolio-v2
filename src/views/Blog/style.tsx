@@ -74,3 +74,9 @@ export const BlogPostAuthor = styled.p`
     font-size: 12px;
   }
 `;
+
+export const BlogCardCategories = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+`;

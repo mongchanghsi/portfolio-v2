@@ -26,7 +26,6 @@ export const BlogListPreviewContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 100%;
 
   @media screen and (min-width: ${theme.breakpoints.large}) {
     padding: 0;
@@ -36,14 +35,18 @@ export const BlogListPreviewContainer = styled.div`
 `;
 
 export const BlogListPreviewTitle = styled.p`
+  width: calc(100% - 48px);
   position: relative;
-  width: 70%;
-  max-width: 800px;
   padding-left: 18px;
   text-align: flex-start;
   font-size: 24px;
   font-weight: 700;
   color: ${theme.colors.primary};
+
+  @media screen and (min-width: ${theme.breakpoints.large}) {
+    width: 70%;
+    max-width: 800px;
+  }
 `;
 
 export const BlogListPreviewSeeMore = styled.div`

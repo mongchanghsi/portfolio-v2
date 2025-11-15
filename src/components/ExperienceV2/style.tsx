@@ -165,12 +165,16 @@ export const ExperienceContentDescriptionItem = styled.p`
 `;
 
 export const ExperienceTitle = styled.p`
+  width: calc(100% - 48px);
   position: relative;
-  width: 70%;
-  max-width: 800px;
   padding-left: 18px;
   text-align: flex-start;
   font-size: 24px;
   font-weight: 700;
   color: ${theme.colors.primary};
+
+  @media screen and (min-width: ${theme.breakpoints.large}) {
+    width: 70%;
+    max-width: 800px;
+  }
 `;

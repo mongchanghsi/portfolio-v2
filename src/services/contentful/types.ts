@@ -19,9 +19,9 @@ export type BlogAuthor = {
 };
 
 export type BlogCategory = {
-  title?: string | null;
+  name?: string | null;
 };
 
 export type BlogTag = {
-  title?: string | null;
+  name?: string | null;
 };
