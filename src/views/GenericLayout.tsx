@@ -11,7 +11,7 @@ export const GenericContent = styled.div`
   position: relative;
   width: 100%;
 
-  max-width: calc(1440px);
+  max-width: 1440px;
   margin: 0 auto;
 
   display: flex;

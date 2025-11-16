@@ -33,6 +33,5 @@ export const BlogCardDescription = styled.p`
   text-align: flex-start;
   font-size: 12px;
   font-weight: 400;
-  color: ${theme.colors.primary};
-  opacity: 70%;
+  color: ${theme.colors.secondary};
 `;

@@ -5,7 +5,7 @@ import { BlogPostTitle, BlogWrapper } from "./style";
 const BlogListView = () => {
   return (
     <GenericContainer>
-      <GenericContent>
+      <GenericContent style={{ maxWidth: "1000px" }}>
         <BlogWrapper>
           <BlogPostTitle>Tech Blog</BlogPostTitle>
           <BlogList />

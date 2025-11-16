@@ -28,8 +28,7 @@ export const BlogPostTitle = styled.h1`
 export const BlogPostBody = styled.div`
   font-size: 12px;
   font-weight: 400;
-  color: ${theme.colors.primary};
-  opacity: 80%;
+  color: ${theme.colors.secondary};
 
   @media screen and (min-width: ${theme.breakpoints.large}) {
     font-size: 16px;
@@ -79,4 +78,12 @@ export const BlogCardCategories = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+`;
+
+export const BlogHeroImage = styled.div`
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2.4;
+  border-radius: 24px;
+  overflow: hidden;
 `;

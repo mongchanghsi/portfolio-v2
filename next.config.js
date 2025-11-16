@@ -14,6 +14,7 @@ const nextConfig = {
       "ik-proxy.b-cdn.net",
       "cdn.ltsglxy.network",
       "assets.coingecko.com",
+      "images.ctfassets.net",
     ],
   },
   async redirects() {
