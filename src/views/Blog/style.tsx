@@ -8,16 +8,16 @@ export const BlogWrapper = styled.div`
   flex-direction: column;
   gap: 12px;
   box-sizing: border-box;
-  padding: 16px 24px;
+  padding: 0 24px 16px 24px;
 
   @media screen and (min-width: ${theme.breakpoints.large}) {
-    padding: 24px 48px;
+    padding: 0 48px 24px 48px;
   }
 `;
 
 export const BlogPostTitle = styled.h1`
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: ${theme.colors.primary};
 
   @media screen and (min-width: ${theme.breakpoints.large}) {

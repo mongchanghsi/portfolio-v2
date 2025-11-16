@@ -12,6 +12,7 @@ import { marked } from "marked";
 import { formatDate } from "@/utils/format";
 import Image from "next/image";
 import BlogCategory from "@/components/Blog/BlogCategory";
+import BlogNavigationBar from "@/components/shared/BlogNavigationBar";
 
 type Props = {
   post: BlogPost;
@@ -25,6 +26,7 @@ const BlogPostView = ({ post }: Props) => {
   return (
     <GenericContainer>
       <GenericContent style={{ maxWidth: "1000px" }}>
+        <BlogNavigationBar />
         <BlogWrapper>
           {post.heroImage && (
             <BlogHeroImage>
