@@ -24,13 +24,13 @@ const BlogCard = ({ data }: Props) => {
         )}
       <BlogCardTitle>{data.title}</BlogCardTitle>
       <BlogCardDescription>{data.excerpt}</BlogCardDescription>
-      {data.tagsCollection && data.tagsCollection?.items?.length > 0 && (
+      {/* {data.tagsCollection && data.tagsCollection?.items?.length > 0 && (
         <BlogCardCategories>
           {data.tagsCollection.items.map((tag) => (
             <BlogTag tag={tag.name || ""} />
           ))}
         </BlogCardCategories>
-      )}
+      )} */}
     </BlogCardContainer>
   );
 };
