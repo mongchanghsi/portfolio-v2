@@ -18,7 +18,10 @@ const BlogCard = ({ data }: Props) => {
         data.categoriesCollection?.items?.length > 0 && (
           <BlogCardCategories>
             {data.categoriesCollection.items.map((category) => (
-              <BlogCategory category={category.name || ""} />
+              <BlogCategory
+                key={category.name}
+                category={category.name || ""}
+              />
             ))}
           </BlogCardCategories>
         )}

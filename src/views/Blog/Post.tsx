@@ -18,7 +18,9 @@ type Props = {
 };
 
 const BlogPostView = ({ post }: Props) => {
-  const html = marked.parse(post.body);
+  marked.setOptions({ async: false });
+  let html = marked.parse(post.body) as string;
+  html = html.replace(/<a /g, '<a target="_blank" rel="noopener noreferrer" ');
 
   return (
     <GenericContainer>
@@ -39,7 +41,10 @@ const BlogPostView = ({ post }: Props) => {
             post.categoriesCollection?.items?.length > 0 && (
               <BlogCardCategories>
                 {post.categoriesCollection.items.map((category) => (
-                  <BlogCategory category={category.name || ""} />
+                  <BlogCategory
+                    key={category.name}
+                    category={category.name || ""}
+                  />
                 ))}
               </BlogCardCategories>
             )}
