@@ -22,8 +22,9 @@ const Experience = () => {
       <ExperienceTitle>Experiences</ExperienceTitle>
       <ExperienceContainer>
         <ExperienceSelection>
-          {ExperienceData.map((experience) => (
+          {ExperienceData.map((experience, index) => (
             <ExperienceSelectionItem
+              key={index}
               selected={JSON.stringify(experience) === JSON.stringify(selected)}
               onClick={() => setSelected(experience)}
             >

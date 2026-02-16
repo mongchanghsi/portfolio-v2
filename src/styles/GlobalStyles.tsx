@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     min-height: 100dvh;
     overflow-x: hidden;
-    overscroll-behavior: none;
 
     background: ${theme.colors.base};
 
@@ -41,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     scroll-behavior: smooth;
   }
-  
+
   a {
     text-decoration-line: none !important;
   }
